@@ -1,0 +1,38 @@
+body {
+  background-color: beige;
+  color: red;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  height: 100px;
+  width: 100px;
+  margin: 4px;
+}
+
+.div1 {
+  background-color: red;
+}
+
+.div2 {
+  background-color: blue;
+}
+.div3 {
+  background-color: green;
+}
+
+.div4 {
+  background-color: yellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.div2 {
+  flex-shrink: 3;
+}
